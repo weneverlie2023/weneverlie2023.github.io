@@ -1,0 +1,104 @@
+h1{
+    font-family: 'Imbue', serif;
+    font-size: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+
+p{
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Nanum Myeongjo', serif;
+    color:rgb(0, 47, 255);
+}
+
+footer{
+    clear: both;
+    font-family: 'Lora', serif;
+    text-align: center;
+    height: 20px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    background-color: yellow;
+}
+
+.image-button-right {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .image-button-right img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .image-button-left {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .image-button-left img {
+    width: 40px;
+    height: 40px;
+  }
+
+.container {
+  display: flex;
+  height: 500px; /* Adjust the container height as needed */
+}
+
+.column {
+  flex: 1;
+  overflow-y: auto;
+  margin-left: 40px;
+  margin-right: 40px;
+  position: relative;
+}
+
+.star-button {
+  transition: transform 0.3s ease-in-out;
+  position: absolute;
+  top: 30px;
+  right: 55px;
+  display: inline-block;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-top: 0 solid transparent;
+  border-bottom: 0 solid transparent;
+  border-left: 40px solid red;
+  border-right: 40px solid red;
+}
+
+.star-button2 {
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    top: 30px;
+    right: 255px;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-top: 0 solid transparent;
+    border-bottom: 0 solid transparent;
+    border-left: 40px solid red;
+    border-right: 40px solid red;
+}
+
+.star-button:hover {
+  transform: rotate(360deg);scale:calc(1.5);
+}
+
+.star-button2:hover {
+    transform: rotate(360deg);scale:calc(1.5);
+  }
+
+  a{ color:red}
+  a:hover{color:rgb(255, 170, 0)} 
